@@ -2,6 +2,8 @@
 
 Lightweight web-based implementation to visually preview image content inside an immersive 3D cylindrical display.
 
+![Cylindrical Display Preview, Teaser](docs/cd-preview-teaser.png)
+
 ## Table of Contents
 * [Background](#Background)
 * [Features](#Features)
