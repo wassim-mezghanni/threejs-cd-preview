@@ -1,6 +1,6 @@
 # three.js - Cylindrical Display Preview
 
-Lightweight web-based implementation to visually preview image content inside an immersive 3D cylindrical display.
+Lightweight web-based implementation to visually preview image content inside an immersive 3D cylindrical display. [[Demo](https://nicoversity.github.io/threejs-cd-preview/)]
 
 ![Cylindrical Display Preview, Teaser](docs/cd-preview-teaser.png)
 
@@ -9,6 +9,7 @@ Lightweight web-based implementation to visually preview image content inside an
 * [Features](#Features)
 * [Dependencies](#Dependencies)
 * [Documentation](#Documentation)
+* [Demo](#Demo)
 * [Screenshots](#Screenshots)
 * [License](#License)
 
@@ -75,8 +76,10 @@ To add your own images for preview in the cylindrical display, two steps are req
 #### Change the configuration of the 3D scene and the cylindrical display
 To adjust the default settings of the 3D scene, including the camera's position and focus point, as well as the cylindrical display model, simply open, inspect, and edit the `config.js` file. Note that the intended unit convention corresponds to 1 unit == 1 meter.
 
-## Screenshots
+## Demo
+An interactive [demo](https://nicoversity.github.io/threejs-cd-preview/) of the web-based application featured in this respository is available online (via GitHub Pages).
 
+## Screenshots
 Cylindrical Display Preview, Example 1: Front\
 ![Cylindrical Display Preview, Example 1: Front](docs/cd-preview-example_1-front.png)
 
