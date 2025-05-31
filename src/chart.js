@@ -36,7 +36,6 @@ async function createHierarchy(eventsData, edgesData) {
 
 
 export async function createChart() {
-  // Load the CSV data
   const [eventsData, edgesData] = await Promise.all([
     d3.csv("/Users/wassim/threejs-cd-preview/ressources/Dark_GD_Contest_Events.csv"),
     d3.csv("/Users/wassim/threejs-cd-preview/ressources/Dark_GD_Contest_Edges.csv")
