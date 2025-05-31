@@ -27,6 +27,7 @@ import { CDData } from "./data.js";
 import { CDSceneConfig, CDConfig } from "./config.js";
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { createChart } from "./src/chart.js";
 
 // === HTML / DOM PREPARATION ===
 // margin of the body (according to settings in styles.css)
@@ -38,11 +39,14 @@ const canvas = document.getElementById("threejs-canvas");
 
 // === EVENT LISTENERS ===
 // automatically invoked once the initial loading of the web page has been completed (.html file is completely parsed) 
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", async function(){
     // override default canvas size
     CDSceneConfig.canvas.width = window.innerWidth - htmlBodyMargin * 2;
     CDSceneConfig.canvas.height = window.innerHeight - htmlBodyMargin * 2;
 
+    // Initialize the chart and wait for it to be created
+    await createChart();
+    
     // trigger Three.js scene initialization
     CdSceneInit();
 });

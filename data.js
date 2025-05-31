@@ -14,14 +14,8 @@
 // * step 2. determine aspect ratio (ar:1) = c / h
 const CylindricalDisplayData = [
     {
-        // test/reference image, dividing the cylindrical 360 space into eight equally sized sections; Nico Reski
-        //textureUrl: "./public/cd_360_eighths-12288x1200px.png"
-
-        textureUrl: "./public/Dark_GD_Contest_Edges hiearchical .jpg"
-    },
-    {
-        // 3D scene rendered with equirectangular projection (cylindrical equidistant projection); created using Unity; Nico Reski
-        textureUrl: "./public/unity_3d_test-4096x400px.png"
+        // The textureUrl will be dynamically set by the chart.js
+        textureUrl: ""  // This will be updated with the chart's generated image
     }
 ];
 
