@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", async function(){
 
     // Initialize the chart and wait for it to be created
     await createChart();
-    
+
     // trigger Three.js scene initialization
     CdSceneInit();
 });
